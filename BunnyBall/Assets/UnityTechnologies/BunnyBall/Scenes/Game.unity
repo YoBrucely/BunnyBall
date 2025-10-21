@@ -772,6 +772,33 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &589779037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3090305506264316954, guid: e6204ab31da16b5468b048819a83c0a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 650159256}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &589779043
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 589779037}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16171302, y: 0.041832816, z: 0.33727363}
+  m_Center: {x: 0.0039815083, y: 0.017521093, z: 0.10206111}
 --- !u!1001 &650159256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -838,7 +865,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3090305506264316954, guid: e6204ab31da16b5468b048819a83c0a5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 589779043}
   m_SourcePrefab: {fileID: 100100000, guid: e6204ab31da16b5468b048819a83c0a5, type: 3}
 --- !u!1 &830316566
 GameObject:

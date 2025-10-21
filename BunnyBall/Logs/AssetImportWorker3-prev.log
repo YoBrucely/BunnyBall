@@ -361,3 +361,67 @@ Memory consumption went from 140.2 MB to 132.1 MB.
 Total: 24.966300 ms (FindLiveObjects: 1.239500 ms CreateObjectMapping: 0.590300 ms MarkObjects: 13.192800 ms  DeleteObjects: 9.940000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  5.992 seconds
+Refreshing native plugins compatible for Editor in 10.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.183 seconds
+Domain Reload Profiling: 10177ms
+	BeginReloadAssembly (2395ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (418ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (5ms)
+		CreateAndSetChildDomain (731ms)
+	RebuildCommonClasses (130ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (3273ms)
+		LoadAssemblies (2933ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1041ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (885ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (4184ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (873ms)
+			ProcessInitializeOnLoadAttributes (2232ms)
+			ProcessInitializeOnLoadMethodAttributes (311ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 14.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6979 unused Assets / (9.3 MB). Loaded Objects now: 7490.
+Memory consumption went from 140.3 MB to 131.0 MB.
+Total: 55.369500 ms (FindLiveObjects: 4.058000 ms CreateObjectMapping: 2.882000 ms MarkObjects: 30.975400 ms  DeleteObjects: 16.729000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
