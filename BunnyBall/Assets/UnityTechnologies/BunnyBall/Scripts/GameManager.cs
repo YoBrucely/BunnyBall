@@ -10,8 +10,12 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-       //is the game over?
-    }
+        //is the game over?
+        if (gameOver == true)
+        { 
+              GameOver();
+        }
+}
 
     void GameOver() {
         player.GetComponent<Player>().enabled = false;
